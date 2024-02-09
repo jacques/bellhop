@@ -1,0 +1,39 @@
+{
+    "name": "jacques/bellhop",
+    "description": "Bellhop",
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "require": {
+        "google/recaptcha": "~1.1",
+        "illuminate/database": "^5.5",
+        "illuminate/events": "^5.5",
+        "illuminate/pagination": "^5.5",
+        "sirprize/postal-code-validator": "^1.1",
+        "slim/slim": "^3.9",
+        "smarty/smarty": "^3.1",
+        "swiftmailer/swiftmailer": "^6.0",
+        "vlucas/valitron": "^1.4"
+    },
+    "require-dev": {
+        "codeclimate/php-test-reporter": "^0.4.4",
+        "doctrine/inflector": "~v1.2.0",
+        "doctrine/instantiator": "~1.0.5",
+        "fzaninotto/faker": "^1.7",
+        "phpunit/phpunit": "^6.5",
+        "squizlabs/php_codesniffer": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jacques\\BellHop\\": "src/"
+        }
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Jacques Marneweck",
+            "email": "jacques@powertrip.co.za"
+        }
+    ]
+}
